@@ -1,0 +1,24 @@
+.bGround{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 150px;
+  
+}
+.SubscriptionBox{
+    position: absolute;
+    width: 40%;
+   top: 50%;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/* .newsLetterBox{
+    background: rgb(244,2,2);
+background: linear-gradient(171deg, rgba(244,2,2,1) 50%, rgba(255,255,255,1) 50%);
+} */
