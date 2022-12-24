@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -21,196 +21,52 @@ export default function Testimonial() {
         <SwiperSlide className="">
           <div>
             <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
+              <img src={quotationMark} alt="" className="quotationMark" />
             </div>
             <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
+              <img src={user} alt="" className=" user rounded-full border my-2 mx-auto" />
             </div>
             <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
+              <p className="sm:text-base">The PakaPepe is the best for for Food & Groceries from home</p>
 
               <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
+                <h1 className="text-gray-500 text-lg mt-4 sm:text-base">Borhan uddin Shanto</h1>
                 <h1 className="text-gray-500 text-lg">Web Designer</h1>
               </div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="">
           <div>
             <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
+              <img src={quotationMark} alt="" className="quotationMark" />
             </div>
             <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
+              <img src={user} alt="" className=" user rounded-full border my-2 mx-auto" />
             </div>
             <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
+              <p className="sm:text-base">The PakaPepe is the best for for Food & Groceries from home</p>
 
               <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
+                <h1 className="text-gray-500 text-lg mt-4 sm:text-base">Borhan uddin Shanto</h1>
                 <h1 className="text-gray-500 text-lg">Web Designer</h1>
               </div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="">
           <div>
             <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
+              <img src={quotationMark} alt="" className="quotationMark" />
             </div>
             <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
+              <img src={user} alt="" className=" user rounded-full border my-2 mx-auto" />
             </div>
             <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
+              <p className="sm:text-base">The PakaPepe is the best for for Food & Groceries from home</p>
 
               <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
-                <h1 className="text-gray-500 text-lg">Web Designer</h1>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <div className="div justify-end">
-              <img src={quotationMark} alt="" className="w-24 h-24" />
-            </div>
-            <div className="">
-              <img src={user} alt="" className=" w-36 h-36 rounded-full border my-2 mx-auto" />
-            </div>
-            <div className="w-2/3 my-2 mx-auto">
-              <p>The PakaPepe is the best for for Food & Groceries from home</p>
-
-              <div>
-                <h1 className="text-gray-500 text-lg mt-4">Borhan uddin Shanto</h1>
+                <h1 className="text-gray-500 text-lg mt-4 sm:text-base">Borhan uddin Shanto</h1>
                 <h1 className="text-gray-500 text-lg">Web Designer</h1>
               </div>
             </div>
